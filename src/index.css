@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "./fonts/Neue_Machina/neue-font.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(27, 27, 27, 0.8) 0%,
+    rgba(21, 21, 21, 0.8) 100%
+  );
+}
+
+.outer-container {
+  width: 450px;
+}
+
+.inner-container {
+  width: 400px;
+  transform: translateY(-120px);
+  position: absolute;
+  clip: rect(0, 400px, 608px, 0);
+}
+
+/* Staking  */
+.player-1-drop-shadow {
+  text-shadow: #ff532e 1px 0 25px;
+}
+.player-2-drop-shadow {
+  text-shadow: #ffae2d 1px 0 25px;
+}
+.player-3-drop-shadow {
+  text-shadow: #ffd72c 1px 0 25px;
+}
+
+.tag-shadow {
+  box-shadow: 0px 25px 36.7px 0px #0000004d;
+}
+
+/* Landbot */
+.landbot-card-container {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.24) 0%,
+    rgba(115, 115, 115, 0.24) 100%
+  );
+
+  box-shadow: 0px 78.55px 100.23px 0px #00000036;
+
+  box-shadow: 0px 3.98px 11.24px 0px #ffffff33 inset;
+}
+
+.button-green-shadow {
+  box-shadow: 0px 4px 100px 0px #00ff00;
+}
+
+.landbot-section-green-shadow {
+  box-shadow: 0px 0px 63.4px 0px #00c6005c;
+}
+
+.landbot-tag-gradient {
+  background: linear-gradient(
+    96.45deg,
+    rgba(0, 0, 0, 0.21) -12.95%,
+    rgba(0, 198, 0, 0.21) 103.99%
+  );
+}
